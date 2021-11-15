@@ -1,12 +1,7 @@
-import { useContext } from "react";
-import { DataContext } from "../../dataContext/dataContext";
-
 const ErrorComp = () => {
-    const {state, dispatch} = useContext(DataContext);
-
     return ( 
-        <div className='w-full h-full bg-red-600 text-center pt-8'>
-            {state.error}
+        <div className='w-full h-full text-center pt-32'>
+            <strong className='p-4 border text-red-600'>Oops, something went wrong!</strong>
         </div>
      );
 }

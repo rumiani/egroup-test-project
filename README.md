@@ -1,29 +1,40 @@
-# Next.js + Tailwind CSS Example
+# Next.js + Tailwind CSS Egroup-test-project
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v2.2)](https://blog.tailwindcss.com/tailwindcss-2-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+## Link to the app:
+[Egroup-rumiani](https://egroup-rumiani.vercel.app/)
 
-It uses the new [`Just-in-Time Mode`](https://tailwindcss.com/docs/just-in-time-mode) for Tailwind CSS.
+## Description
+I built a test project using Nex.js + Tailwind CSS.
 
-## Preview
+The application is hosted on [vercel](https://vercel.com)
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+- For the data I used a json file attatch to the Email.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+• I displayed “cards” on the board, similar to the pic in the PDF file
 
-## Deploy your own
+• The X-Axis represents the Time (“Due Date” specifies right border of card and “Estimation” specifies it’s width) : I couldn't complete this part but I'm working on it.
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+• In Y-Axis displaying only  “Epics” issue type and  “Roadmap” lable. 
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+• Each card has a Key, Summary, Description, Estimation, Due Date.
 
-## How to use
+# Next.js + Tailwind CSS Egroup-test-project
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+## Link to the app:
+[Egroup-rumiani](https://egroup-rumiani.vercel.app/)
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+## Description
+I built a test project using Nex.js + Tailwind CSS.
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+The application is hosted on [vercel](https://vercel.com)
+
+- For the data I used a json file attatch to the Email.
+
+• I displayed “cards” on the board, similar to the pic in the PDF file
+
+• The X-Axis represents the Time (“Due Date” specifies right border of card and “Estimation” specifies it’s width) : I couldn't complete this part but I'm working on it.
+
+• In Y-Axis displaying only  “Epics” issue type and  “Roadmap” lable. 
+
+• Each card has a Key, Summary, Description, Estimation, Due Date.
+

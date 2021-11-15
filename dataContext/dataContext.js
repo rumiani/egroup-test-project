@@ -1,29 +1,35 @@
-
+import * as t from './types'
 import React, { useReducer, createContext } from "react";
 export const DataContext = createContext();
 
 const initialState = {
   result: [],
-  loading: false,
-  error: null
+  data:false,
+  loading:true ,
+  error: false
 };
 
 const reducer = (state = initialState, action) => {
   switch (action.type) {
-    case "RESULT":
+    case t.RESULT:
       return {
           ...state,
         result: [...state.result, ...action.payload]
       };
-    case "LOADING":
+    case t.DATA:
+      return {
+        ...state,
+        data: action.payload
+      };
+    case t.LOADING:
       return {
         ...state,
         loading: action.payload
       };
-    case "ERROR":
+    case t.ERROR:
       return {
         ...state,
-        error: 'An Error occurred ... '
+        error: action.payload
       };
     default:
       throw new Error();
